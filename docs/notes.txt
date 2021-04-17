@@ -1,0 +1,40 @@
+- open-source and cross-platform runtime environent
+- chrome v8 compiles javascript code into native machine code
+- event loop
+    - call stack
+    - event queue
+    - browsers API
+- 
+
+features:
+- single-threaded
+- event-driven
+- non-blocking IO
+
+- how events are processed?
+- creating custom event?
+
+
+npm:
+- package.json
+- 
+
+npm vs yarn
+
+
+Express.js framework
+mongodb, mongoose
+
+freecodecamp course:
+https://www.freecodecamp.org/news/free-8-hour-node-express-course/
+https://nodejs.dev/learn/understanding-javascript-promises
+https://www.udemy.com/course/the-complete-nodejs-developer-course-2/learn/lecture/13728806#overview
+https://nodejs.dev/learn/understanding-process-nexttick
+https://nodejs.org/api/http.html#http_http
+
+REPL [Read Eval Print Loop]: to enter type node
+
+node uses commonjs library under the hood
+
+node uses libuv for eventloop and async operations
+
