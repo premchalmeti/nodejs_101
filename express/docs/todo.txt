@@ -1,0 +1,11 @@
+routing [router] [Done]
+apis
+authentication
+Folder structure
+Architectures
+Design Patterns [MVC, MVVM]
+Session framework
+routing
+error handling
+Logging
+Configuration handling [dev, prod]

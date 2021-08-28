@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Employee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h2 class="my-4">Employee Registration</h2>
+        <div class="jumbotron">
+            <form action="http://localhost:8080/api/employee/" method="POST">
+                <div class="form-group">
+                    <label for="name-txt" class="form-label">Full name</label>
+                    <input type="text" name='name' id='name-txt' class="form-control">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="company-select" class="form-label">Select Company</label>
+                    <select name="company_id" id="company-select" class="form-control">
+                        <option value="1">Whitesnow Softwares Pvt. Ltd.</option>
+                        <option value="2">Incentius</option>
+                        <option value="3">Xoriant Solutions Pvt. Ltd.</option>
+                        <option value="4">Accenture Plc</option>
+                        <option value="5">Google LLC</option>
+                    </select>
+                </div>
+                <button type="clear" class="btn btn-light m-2">Cancel</button>
+                <button type="submit" class="btn btn-primary m-2">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

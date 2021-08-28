@@ -1,0 +1,17 @@
+doctype html
+html
+    block head
+        head 
+            block title
+                title Employee | #{title}
+            block styles
+                link(href='style.css', rel='stylesheet')
+            block scripts
+    body
+        block body
+            block content
+                h1 Base content here
+
+        block footer
+            p(style={color: '#aaa'}) Author
+            a(href='https://premchalmeti.com', style={color: '#aaa'}) Premkumar Chalmeti

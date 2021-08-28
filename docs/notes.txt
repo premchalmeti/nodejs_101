@@ -38,3 +38,14 @@ node uses commonjs library under the hood
 
 node uses libuv for eventloop and async operations
 
+
+trailing slash handling?
+
+default route handling?
+
+
+Error Handling:
+    - exceptions/errors are logged
+    - http is sent to users
+    - exceptions to http conversion
+    - 

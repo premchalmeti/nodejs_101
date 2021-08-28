@@ -1,0 +1,31 @@
+{
+  "name": "payroll_mgmt",
+  "version": "1.0.0",
+  "description": "A payroll mgmt app written in vanilla node.js (without any framework) includes CRUD APIs for Employee and Company",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --inspect server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/premchalmeti/payroll_mgmt.git"
+  },
+  "keywords": [
+    "node.js",
+    "REST",
+    "CRUD-API"
+  ],
+  "author": "premchalmeti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/premchalmeti/payroll_mgmt/issues"
+  },
+  "homepage": "https://github.com/premchalmeti/payroll_mgmt#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}

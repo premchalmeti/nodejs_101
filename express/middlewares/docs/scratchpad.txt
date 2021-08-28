@@ -1,0 +1,6 @@
+
+body-parser - parsing middleware
+
+pug - templating engine
+
+express - framework api, routing

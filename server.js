@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
         'path': '/courses',
         'method': 'GET'
     }
-   
+
     http.request(options, (response)=>{
         console.log('res', response.statusCode, response.statusMessage);
     }).end();

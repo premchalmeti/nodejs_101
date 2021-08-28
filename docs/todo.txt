@@ -1,0 +1,53 @@
+
+Todo:
+    - Express
+        - https://www.npmjs.com/package/express
+        - https://expressjs.com/
+    - application monitoring, logging and error handling
+        - libs: [Done]
+            - winston [is good]
+            - morgan [http request logger]
+        - Logging [Done]
+            - request logging [using winston]
+            - event logs [using winston]
+        - Error handling
+            - user response messages
+            - response codes
+            - complete error for logger
+            - centralized error handling
+        - sentry integration
+        - APM integration
+    - Configuration handling [dev, prod] [Done]
+    - Deployment
+
+    - Secure APIs
+    - Session framework
+    - User authentication
+        - session based [cookie]
+        - jwt
+        - oauth
+        - sso
+        - AD
+    - Object oriented APIs [Typescript integration]
+
+    - Code Architectures
+        - Design Patterns [MVC, MVVM]
+        - Folder structure
+        - Controllers, Services, [Done]
+    - Streaming responses [CCTV]
+
+    - Req, Res cycle
+    - file handling [CRUD]
+        - multer https://www.npmjs.com/package/multer#readme
+
+[done]
+    - Static file serving [.js, .css, images] [using express]
+    - Handling JSON
+        [read - JSON.parse(), write - JSON.stringify(val, replacer, space)]
+    - Form data
+    - Debugging: [https://code.visualstudio.com/docs/nodejs/nodejs-debugging]
+    - Middlewares:
+        https://expressjs.com/en/guide/using-middleware.html
+    - Templating
+        pug[formerly jade]: https://www.npmjs.com/package/pug
+    - Routing

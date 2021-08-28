@@ -1,0 +1,16 @@
+extends base.pug
+
+//- block append styles / block prepend styles
+//- block append styles
+
+block title 
+    title Employees | Home
+
+block body
+    h2 List of Employees in Incentius 
+
+    ul
+    each emp in employees
+        li 
+            a(href='/api/employees/'+emp.id+'/') #{emp.name}
+

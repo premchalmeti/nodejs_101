@@ -1,0 +1,47 @@
+
+p#main => id
+p.class => class
+
+- var authenticated = true => variable declaration
+
+template inheritance:
+extends <parent_template>
+block [append/prepend] <block name>
+
+include template:
+include <template>
+
+
+#{name} => place holder
+
+
+loops:
+each emp in employees
+    p #{emp.name} employee
+
+attributes:
+a(style={color: 'red'}, class='main', href='premchalmeti.com') Premkumar Chalmeti
+
+- var mode = 'password'
+case mode
+    when 'password'
+        p Employee: #{emp.name}
+        p Password: #{emp.pwd}
+
+    when 'list'
+    when 'detail'
+        p #{emp.name} details
+
+    default
+        p No mode matched
+
+// comment here => <!-- comment here -->
+
+//- comment here => ignored
+
+- var authorized = true
+
+if authorized
+    h2.green logged in successfully!
+else
+    h2.red Failed to login

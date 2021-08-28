@@ -1,0 +1,17 @@
+extends base.pug
+
+//- block append styles / block prepend styles
+//- block append styles
+
+block title 
+    title Employee #{employee.name} | Details
+
+block body
+    h2 Employee #{employee.name} Details
+
+    b name: &nbsp;
+    span #{employee.name}
+    br
+    b Company: &nbsp;
+    span #{employee.company_id}
+
